@@ -1,0 +1,43 @@
+{
+  "name": "warren",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint ./",
+    "lint-fix": "./node_modules/.bin/eslint ./ --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "node-cron": "^2.0.3",
+    "nodemon": "^1.19.1",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@shelf/jest-mongodb": "^1.2.1",
+    "@types/jest": "^26.0.7",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "mockingoose": "^2.13.2",
+    "mongodb-memory-server": "^6.6.1",
+    "prettier": "^2.0.5",
+    "supertest": "^4.0.2"
+  }
+}

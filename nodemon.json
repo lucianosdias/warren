@@ -1,0 +1,6 @@
+{
+  "execMap": {
+    "js": "babel-node --inspect=0.0.0.0"
+  },
+  "ignore": ["__tests__"]
+}
